@@ -1,0 +1,36 @@
+/* Base styles */
+.prime-video-container {
+  background-color: #000000;
+  padding-bottom: 32px;
+  min-height: 100vh;
+  margin: 0px;
+}
+
+.image {
+  width: 100%;
+}
+
+.action-container {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 32px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+/* Responsive styles */
+@media screen and (min-width: 768px) {
+  .action-container {
+    max-width: 1110px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+}
